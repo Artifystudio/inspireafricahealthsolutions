@@ -3,6 +3,30 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
+    name: "Sumayah T.",
+    country: "Uganda",
+    text: "My mom's kidney has improved a lot compared to last time. She took a test yesterday and so I am ordering more 2 boxes. Nutrika is truly life-changing!",
+    goal: "Kidney Health",
+  },
+  {
+    name: "Anonymous Client",
+    country: "Uganda",
+    text: "I've been dealing with missing periods for a while now. I started taking Nutrika, and by Day 4, my period came back, naturally and pain-free! I'm honestly shocked and grateful. Ladies, if you're struggling with your cycle, Nutrika is worth trying!",
+    goal: "Hormone Balance",
+  },
+  {
+    name: "Satisfied Client",
+    country: "Uganda",
+    text: "She had issues, suffering from ulcers. You treated her and now she is well. I have a daughter with the same problem — how do I get your product and treatment?",
+    goal: "Ulcer Relief",
+  },
+  {
+    name: "Mitina B.",
+    country: "Uganda",
+    text: "I am just finishing my second box of Nutrika and all the pain I was experiencing in my tubes is gone. I didn't believe when you told me to continue after finishing the first box, and now I am the happiest!",
+    goal: "Blocked Tubes",
+  },
+  {
     name: "Sarah M.",
     country: "Kenya",
     text: "After struggling with low energy for years, InspireAfrica recommended a personalized Nutrika plan that completely transformed my daily life. I feel more vibrant than ever!",
@@ -25,12 +49,6 @@ const testimonials = [
     country: "South Africa",
     text: "The global shipping was seamless. I received my products on time and the quality is outstanding. InspireAfrica is truly a world-class operation.",
     goal: "General Wellness",
-  },
-  {
-    name: "Grace T.",
-    country: "Tanzania",
-    text: "What sets InspireAfrica apart is their follow-up care. They don't just sell products — they walk with you through your entire health journey.",
-    goal: "Preventive Care",
   },
   {
     name: "Michael R.",
