@@ -84,9 +84,7 @@ const ServicesSection = () => {
           className="text-center text-xs text-muted-foreground mt-12 max-w-2xl mx-auto"
         >
           <em>
-            Disclaimer: Our products and services are wellness-focused and are not intended to
-            diagnose, treat, cure, or prevent any disease. Always consult your healthcare
-            professional before starting any nutritional supplement.
+            Nutrika products are powerful, scientifically formulated nutritional solutions that deliver real results. While our products have transformed the lives of hundreds of clients worldwide, individual results may vary. For specific medical conditions, we recommend consulting with your healthcare professional to complement your wellness journey.
           </em>
         </motion.p>
       </div>
