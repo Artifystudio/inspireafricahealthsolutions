@@ -149,7 +149,10 @@ const ContactSection = () => {
                 </div>
               </a>
 
-              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+              <a
+                href="mailto:Inspireafricahealthsolutions@gmail.com"
+                className="flex items-center gap-4 text-sm text-muted-foreground hover:text-primary transition-colors"
+              >
                 <span className="w-10 h-10 rounded-full hero-gradient flex items-center justify-center text-primary-foreground shrink-0">
                   <Mail className="w-5 h-5" />
                 </span>
@@ -157,7 +160,7 @@ const ContactSection = () => {
                   <p className="font-medium text-foreground">Email</p>
                   <p>Inspireafricahealthsolutions@gmail.com</p>
                 </div>
-              </div>
+              </a>
 
               <div className="flex items-center gap-4 text-sm text-muted-foreground">
                 <span className="w-10 h-10 rounded-full hero-gradient flex items-center justify-center text-primary-foreground shrink-0">
