@@ -155,7 +155,7 @@ const ContactSection = () => {
                 </span>
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p>info@inspireafricahealth.com</p>
+                  <p>Inspireafricahealthsolutions@gmail.com</p>
                 </div>
               </div>
 

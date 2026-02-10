@@ -101,6 +101,29 @@ const NutrikaSection = () => {
           </div>
         </div>
 
+        {/* Video */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mb-16 max-w-3xl mx-auto"
+        >
+          <h3 className="text-xl font-bold text-foreground text-center mb-6">
+            Learn More About Nutrika
+          </h3>
+          <div className="rounded-2xl overflow-hidden shadow-elevated">
+            <video
+              controls
+              className="w-full"
+              poster="/placeholder.png"
+              preload="metadata"
+            >
+              <source src="/videos/Nutrika_Vid.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </motion.div>
+
         {/* Extra ingredients + CTA */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
